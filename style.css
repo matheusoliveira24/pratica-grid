@@ -63,8 +63,8 @@ body {
    overflow: hidden;
 }
 .profile-pic img {
-   width: 100%;
-   height: auto;
+   width: 85%;
+   height: 85%;
 }
 .projects {
    grid-column: span 1;
