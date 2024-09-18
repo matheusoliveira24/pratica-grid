@@ -43,6 +43,7 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   height: 370px;
 }
 .main-title h2 {
    margin: 0;
@@ -63,8 +64,8 @@ body {
    overflow: hidden;
 }
 .profile-pic img {
-   width: 85%;
-   height: 85%;
+   width: 100%;
+   height: 450px;
 }
 .projects {
    grid-column: span 1;
@@ -97,19 +98,23 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   width: 300px;
+   height: 300px;
 }
 .about p {
    margin: 0;
 }
 .contact {
-   grid-column: span 1;
+   grid-column: 3;
    background-color: #FF9A9A;
-   padding: 40px;
+   padding: 30px;
    border-radius: 20px;
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-between;
    position: relative;
+   height: 280px;
+   
 }
 .contact h3 {
    margin: 0;
@@ -123,12 +128,15 @@ body {
    font-size: 1.5em;
 }
 .footer {
-   grid-column: span 4;
+   grid-column: 4/4;
    background-color: #FFD1D1;
    padding: 20px;
    border-radius: 20px;
    display: flex;
    justify-content: center;
+   height: 70px;
+   width: 300px;
+   align-items: center;
 }
 .footer a {
    margin: 0 10px;
